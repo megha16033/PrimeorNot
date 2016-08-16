@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PrimeTF</string>
+    <string name="question">Is 29 a Prime Number?</string>
+    <string name="True">True</string>
+    <string name="False">False</string>
+    <string name="Next">Next</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
