@@ -13,6 +13,8 @@ import java.util.Random;
 
 public class PrimeActivity extends ActionBarActivity {
 
+
+    //by default method
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
