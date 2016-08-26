@@ -46,9 +46,11 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
+                    android:padding="10dp"
                     android:background="#ff3ffa4b"
                     android:onClick="onTrueClick"
-                    android:text="@string/True" />
+                    android:text="@string/True"
+                    android:drawableLeft="@drawable/true_1"/>
 
                 <Button
                     android:id="@+id/falsebutton"
@@ -56,9 +58,11 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="20dp"
+                    android:padding="10dp"
                     android:background="#fffa2842"
                     android:onClick="onFalseClick"
-                    android:text="@string/False" />
+                    android:text="@string/False"
+                    android:drawableLeft="@drawable/false_1"/>
 
             </LinearLayout>
 
@@ -68,8 +72,35 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="#ff97e4fa"
+                android:padding="10dp"
                 android:onClick="onNextClick"
-                android:text="@string/Next" />
+                android:text="@string/Next"
+                android:drawableLeft="@drawable/next"/>
+
+            <Button
+                android:id="@+id/hintbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ff97e4fa"
+                android:onClick="onHintClick"
+                android:layout_marginTop="25dp"
+                android:text="@string/Hint"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/hint"/>
+
+            <Button
+                android:id="@+id/cheatbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ff97e4fa"
+                android:onClick="onCheatClick"
+                android:layout_marginTop="25dp"
+                android:text="@string/Cheat"
+                />
+
+
         </LinearLayout>
     </RelativeLayout>
 
